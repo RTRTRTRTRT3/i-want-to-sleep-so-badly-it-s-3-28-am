@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+
+<style type="text/css">
+	button{
+		width: 100px;
+		height: 100px;
+		font-size: 40px;
+		border: 1px solid black;
+		border-radius: 10px;
+		color: white;
+	}
+
+	.butt-numbeh{
+		color: #015db4;
+		border-color: gray;
+	}
+
+	.butt-red{
+		background-color: #e40203;
+		border: none; 
+	}
+
+	.butt-grey{
+		background-color: #aeaeae;
+	}
+
+	.butt-darkgrey{
+		background-color: #7f7f7e;
+	}
+</style>
+<body>
+	<div style="background: #e8f5fe; width: 700px; height: 800px; display: flex; flex-direction: column; align-items: center; padding: 30px;"> 
+		<!-- Родительский контейнер -->
+		
+		<!-- Серый блок -->
+		<div style="width: 90%; background-color: #f5f5f5; height: 200px; margin-bottom: 20px; border: 6px solid #a7a5a3; border-radius: 20px; ">
+			<h1 style="float: right; font-size: 80px; font-family: sans-serif;">0</h1>
+			<hr>
+		</div>
+
+		<!-- Блок с кнопками -->
+		<div style="display: grid; grid-template-columns: repeat(6, 1fr); grid-gap: 10px; width: 90%;">
+			<button class="butt-grey">MC</button>
+			<button class="butt-grey">MR</button>
+			<button class="butt-grey">M-</button>
+			<button class="butt-grey">M+</button>
+			<button class="butt-grey">√</button>
+			<button class="butt-grey">MU</button>
+			<button class="butt-grey">+/-</button>
+			<button class="butt-numbeh">7</button>
+			<button class="butt-numbeh">8</button>
+			<button class="butt-numbeh">9</button>
+			<button class="butt-darkgrey">/</button>
+			<button class="butt-grey">%</button>
+			<button class="butt-grey">&larr;</button>  
+			<button class="butt-numbeh">4</button>
+			<button class="butt-numbeh">5</button>
+			<button class="butt-numbeh">6</button>
+			<button class="butt-darkgrey">*</button>
+			<button class="butt-darkgrey">-</button>
+			<button class="butt-red">AC</button>
+			<button class="butt-numbeh">1</button>
+			<button class="butt-numbeh">2</button>
+			<button class="butt-numbeh">3</button>
+			<button class="butt-darkgrey" style="grid-row: span 2; height: 210px;">+</button>
+			<button class="butt-darkgrey" style="grid-row: span 2; height: 210px; background-color: #015db4;">=</button>
+			<button class="butt-red">C</button>
+			<button class="butt-numbeh">0</button>
+			<button class="butt-numbeh">00</button>
+			<button class="butt-numbeh">.</button>
+
+		</div>
+	</div>
+</body>
+</html>
